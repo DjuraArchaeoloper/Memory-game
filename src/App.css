@@ -1,0 +1,137 @@
+
+body {
+  background-color: #c8c6a7;
+}
+
+.badge {
+  background-color: #92967d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  text-decoration: #c8c6a7;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #92967d;
+  height: 100vh;
+  width: 99,9vw;
+  background-image: url("Cat11.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-position-x: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 40vw;
+  text-align: center;
+  box-shadow: 10px 10px 10px gray;
+  background: #c8c6a7;
+  border-radius: 30px;
+}
+
+.navbar {
+  display: flex;
+  box-shadow: 5px 5px 5px 5px gray;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  height: 60px;
+  width: 80%;
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+}
+
+.game {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Cat10.png");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 700px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-blank {
+  background: url("./Components/Images/Cat9.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.end-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130%;
+  width: 100%;
+  background: #92967d;
+  background-image: url("Cat12.png");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 10%;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 40vw;
+  background: white;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #c8c6a7;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+  }
+  .message {
+    width: 400px;
+  }
+  .login {
+    width: 400px;
+  }
+}
